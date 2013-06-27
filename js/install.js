@@ -1,5 +1,5 @@
 // Install app
-$('#install').closest('.ui-btn').hide();
+
 if (navigator.mozApps) {
     var checkIfInstalled = navigator.mozApps.getSelf();
     checkIfInstalled.onsuccess = function () {
@@ -33,5 +33,6 @@ if (navigator.mozApps) {
     };
 }
 else {
+    $('#install').closest('.ui-btn').hide();
     console.log("Open Web Apps not supported");
 }
