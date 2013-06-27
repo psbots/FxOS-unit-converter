@@ -1,0 +1,22 @@
+/* 
+    Document   : mystyles
+    Created on : 21 Jun, 2013, 1:19:27 PM
+    Author     : praveen
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+img
+    {   
+        display: block;   
+        margin-left: auto;   
+        margin-right: auto; 
+    }
+
+.list {
+
+}

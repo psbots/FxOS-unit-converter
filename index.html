@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" class="ui-mobile-rendering">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Coverter</title>
+	
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+	
+        <link rel="stylesheet" href="_/css/yellow.css" />
+	<link rel="stylesheet" href="_/css/structure.css" />
+	
+	<!--<link rel="stylesheet" href="_/css/jquery.mobile.css" />-->
+	<script src="_/js/jquery.js"></script>
+	<script src="_/js/jquery.mobile.js"></script>
+	
+	<script src="_/js/install.js"></script>
+	<script src="_/js/myscript.js"></script>
+	<link rel="stylesheet" href="_/css/mystyles.css" />
+</head>
+<body>
+    <div id="home" data-role="page" data-theme='a' data-title="Home">
+        <div data-role="header" data-id="c_header">
+            <h1>Unit Converter Basic</h1>
+	    <button id="install" data-role="button" data-icon="plus" data-iconpos="notext" class="ui-btn-left"></button>
+            <a href="#info"
+               data-icon="info"
+		data-iconpos="notext"
+		data-rel="dialog"
+		class="ui-btn-right">Info</a>
+        </div>
+	<p id="installation-instructions">Press the + button in the top right corner to install this app.</p>
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <img src="images/length.png" alt="Length">
+                <a href="#length" 
+                   data-role="button" data-theme='a'>Length</a>
+            </div>
+            <div class="ui-block-b">
+                <img src="images/weight2.png" alt="Weight">
+                <a href="#weight" 
+                    data-role="button" data-theme='a'>Weight</a>
+            </div>
+            <div class="ui-block-a">
+                <img src="images/volume.png" alt="Volume">
+                <a href="#volume" 
+               data-role="button" data-theme='a'>Volume</a>
+            </div>
+            <div class="ui-block-b">
+                <img src="images/temperature.png" alt="Temperature">
+                <a href="#temperature" 
+               data-role="button" data-theme='a'>Temperature</a>
+            </div>
+            <div class="ui-block-a">
+                <img src="images/speed.png" alt="Speed">
+                <a href="#speed" 
+               data-role="button" data-theme='a'>Speed</a>
+            </div>
+            <div class="ui-block-b">
+                <img src="images/time.png" alt="Time">
+                <a href="#time" 
+               data-role="button" data-theme='a'>Time</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="length" data-role="page" data-theme='a' data-title="Length">
+        <div id="header" data-role="header" data-id="c_header">
+            <h1>Length</h1>
+            <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+            <a href="#info"
+                data-icon="info"
+		data-iconpos="notext"
+		data-rel="dialog">Info</a>
+        </div>
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <div data-role="fieldcontain" class="list" data-listno=1 data-propIndex=0>
+                </div>
+            </div>
+            <div class="ui-block-b">
+                <div data-role="fieldcontain" class="list" data-listno=2 data-propIndex=0>
+                </div>
+            </div>
+        
+        </div>
+        
+         <p>Length Conversion</p>
+    </div>
+    
+    <div id="weight" data-role="page" data-theme='a' data-title="Weight">
+        <div data-role="header" data-id="c_header">
+            <h1>Weight</h1>
+            <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+            <a href="#info"
+                data-icon="info"
+		data-iconpos="notext"
+		data-rel="dialog">Info</a>
+        </div>
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <div data-role="fieldcontain" class="list" data-listno=1  data-propIndex=1>
+                </div>
+            </div>
+            <div class="ui-block-b">
+                <div data-role="fieldcontain" class="list" data-listno=2  data-propIndex=1>
+                </div>
+            </div>
+        </div>
+         <p>Weight Conversion</p>
+    </div>
+    
+    <div id="volume" data-role="page" data-theme='a' data-title="Volume">
+        <div data-role="header" data-id="c_header">
+            <h1>Volume</h1>
+            <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+            <a href="#info"
+                data-icon="info"
+		data-iconpos="notext"
+		data-rel="dialog">Info</a>
+        </div>
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <div data-role="fieldcontain" class="list" data-listno=1 data-propIndex=5>
+                </div>
+            </div>
+            <div class="ui-block-b">
+                <div data-role="fieldcontain" class="list" data-listno=2 data-propIndex=5>
+                </div>
+            </div>
+        </div>
+         <p>Volume Conversion</p>
+    </div>
+    
+    <div id="temperature" data-role="page" data-theme='a' data-title="Temperature">
+        <div data-role="header" data-id="c_header">
+            <h1>Temperature</h1>
+            <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+            <a href="#info"
+                data-icon="info"
+		data-iconpos="notext"
+		data-rel="dialog">Info</a>
+        </div>
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <div data-role="fieldcontain" class="list" data-listno=1  data-propIndex=2>
+                </div>
+            </div>
+            <div class="ui-block-b">
+                <div data-role="fieldcontain" class="list" data-listno=2 data-propIndex=2>
+                </div>
+            </div>
+        </div>
+         <p>Temperature Conversion</p>
+    </div>
+    
+    <div id="speed" data-role="page" data-theme='a' data-title="Speed">
+        <div data-role="header" data-id="c_header">
+            <h1>Speed</h1>
+            <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+            <a href="#info"
+                data-icon="info"
+		data-iconpos="notext"
+		data-rel="dialog">Info</a>
+        </div>
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <div data-role="fieldcontain" class="list" data-listno=1 data-propIndex=4>
+                </div>
+            </div>
+            <div class="ui-block-b">
+                <div data-role="fieldcontain" class="list" data-listno=2 data-propIndex=4>
+                </div>
+            </div>
+        </div>
+         <p>Speed Conversion</p>
+    </div>
+    
+    <div id="time" data-role="page" data-theme='a' data-title="Time">
+        <div data-role="header" data-id="c_header">
+            <h1>Others</h1>
+            <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+            <a href="#info"
+                data-icon="info"
+		data-iconpos="notext"
+		data-rel="dialog">Info</a>
+        </div>
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <div data-role="fieldcontain" class="list" data-listno=1 data-propIndex=3>
+                </div>
+            </div>
+            <div class="ui-block-b">
+                <div data-role="fieldcontain" class="list" data-listno=2 data-propIndex=3>
+                </div>
+            </div>
+        </div>
+         <p>Time Conversions</p>
+    </div>
+    
+    <div data-role="page" data-theme='a' id="info">
+	<div data-role="header">
+			<h1>About</h1>
+	</div>
+	<div data-role="content">
+		<p>Unit Converter Basic helps you convert basic measurements namely: Length, Weight, Volume, Speed, Temperature and Time into the units of your choice.</p>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <a href="#home"
+			data-role="button" data-theme='a'
+                        data-icon="home">Home</a>
+                    </div>
+                    <div class="ui-block-b">
+                        <a href="#"
+			data-role="button" data-theme='a'
+                        data-rel="back"
+                        data-icon="back"
+			>Back</a>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
