@@ -1,4 +1,5 @@
 {
+  "version": "1",
   "name": "Unit Converter Basic",
   "description": "Unit Converter Basic helps you convert basic measurements like Length, Weight, Volume, Temperature, Speed and Time into the units of your choice. For Source code and more info, visit my blog : http://psbots.blogspot.com ",
   "launch_path": "/FxOS-unit-converter/index.html",
@@ -9,6 +10,7 @@
     "name": "Praveen Sridhar",
     "url": "http://psbots.blogspot.com"
   },
+  "installs_allowed_from": ["*"],
   "default_locale": "en",
   "type": "privileged"
 }
