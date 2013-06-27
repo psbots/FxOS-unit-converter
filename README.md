@@ -12,4 +12,4 @@ Alternatively, install it in the Firefox OS Simulator Dashboard by providing the
 
 A good way to get a feel for the app without the hassle of installing the simulator would be to open the above link using the latest Firefox Browser, where you can use the Responsive Design View (Ctrl+Shift+M) and resize the screen appropriately.
 
-## For more info, visit my [blog](http://psbots.blogspot.in/2013/06/a-tryst-with-firefox.html)
+## For more info, visit my [blog](http://psbots.blogspot.in/2013/06/fxos-unit-converter-app.html)
