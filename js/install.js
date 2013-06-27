@@ -10,7 +10,8 @@ if (navigator.mozApps) {
                 installationInstructions.style.display = "none";
             }
 	    if (install) {
-		$('#install').closest('.ui-btn').hide();
+		//$('#install').closest('.ui-btn').hide();
+		install.style.display = "none";
 	    }
         }
         else {
