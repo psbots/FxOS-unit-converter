@@ -1,5 +1,6 @@
 // Install app
-
+$('#install').button();
+$('#install').closest('.ui-btn').hide();
 if (navigator.mozApps) {
     var checkIfInstalled = navigator.mozApps.getSelf();
     checkIfInstalled.onsuccess = function () {
@@ -11,7 +12,7 @@ if (navigator.mozApps) {
             //    installationInstructions.style.display = "none";
             //}
 	    if (install) {
-		$('#install').closest('.ui-btn').hide();
+		//$('#install').closest('.ui-btn').hide();
 		//install.style.display = "none";
 	    }
         }
@@ -23,7 +24,7 @@ if (navigator.mozApps) {
             install.onclick = function () {
                 var installApp = navigator.mozApps.install(manifestURL);
                 installApp.onsuccess = function(data) {
-                    install.style.display = "none";
+                    $('#install').closest('.ui-btn').hide();
                 };
                 installApp.onerror = function() {
                     alert("Install failed\n\n:" + installApp.error.name);
