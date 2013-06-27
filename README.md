@@ -1,6 +1,6 @@
 #Firefox OS Unit Converter App
 
-This is a basic unit converter which converts basic measurements namely Length, Weight, Volume, Temperature, Speed and Time into the units of your choice. [JQuery Mobile](http://jquerymobile.com/) has been used to generate the UI.
+This is a basic unit converter which converts basic measurements namely Length, Weight, Volume, Temperature, Speed and Time into the units of your choice. [jQuery Mobile](http://jquerymobile.com/) has been used to generate the UI.
 
 ## Preview
 
