@@ -1,4 +1,5 @@
 // Install app
+$('#install').closest('.ui-btn').hide();
 if (navigator.mozApps) {
     var checkIfInstalled = navigator.mozApps.getSelf();
     checkIfInstalled.onsuccess = function () {
@@ -10,14 +11,15 @@ if (navigator.mozApps) {
             //    installationInstructions.style.display = "none";
             //}
 	    if (install) {
-		//$('#install').closest('.ui-btn').hide();
+		$('#install').closest('.ui-btn').hide();
 		//install.style.display = "none";
 	    }
         }
         else {
             var install = document.querySelector("#install"),
                 manifestURL = location.href.substring(0, location.href.lastIndexOf("/")) + "/manifest.webapp";
-            install.className = "show-install";
+		$('#install').closest('.ui-btn').show();
+            	//install.className = "show-install";
             install.onclick = function () {
                 var installApp = navigator.mozApps.install(manifestURL);
                 installApp.onsuccess = function(data) {
